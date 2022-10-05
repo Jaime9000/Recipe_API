@@ -34,7 +34,7 @@ userObject = Register(app)
 
 @app.route('/')
 def home():
-    return render_template("index.html")
+    return render_template("/home.html")
    # return '''<h>this is demo flask app</h>
    # <p> for signup - /signup/username/password </p>
    # <p> for login - /login/username/password </p>'''
