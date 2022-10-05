@@ -1,0 +1,38 @@
+Dev-Log. Creating a Flask/MongoDB Rest-API for Cooking Recipes SetUP.
+
+
+Pre-Requesists:
+I wrote this software a MacbookPro with M1 chip, however it should be universall for all UNIX based systems,
+asside from package download/install may be diffrent on Linux-OS distributions:
+
+Package-Manager:
+Linux-distros:
+I reccomend use of -apt- PM if on linux.
+	--apt usually comes pre-installed on linux
+I reccomend use of Brew PM if on OSX.
+	--Install brew here: https://brew.sh/
+
+
+*Python 3 Installed local machine
+	-->install python3 on OSX: 
+			verify its not installed already: $'python3 --version'
+			download/install: $'brew install python3'
+	--> install python3 on Linux-OS:
+			verify its not installed already:$'python3 --version'
+			download/install:' sudo apt-get install python3'
+*Flask Installed local machine
+	--> pip install flask (make sure you have pip installed first) 
+
+{I prefer to install the packages globally under my user 
+ first, verify their stability before then installing them within 
+ the VE(virutal enviorment).
+ This acts as a sanity check if you run into errors with the packages
+ not functioning as desired within the VE}
+
+
+1)Create a new Directory for your Application 'mkdir projectName'
+2)Create a virtual-enviorment:  'pipenv --three' (python3)
+	--$'pipenv shell' before installing packages: 
+	a)install flask: 'pipenv install flask'
+	
+3)
