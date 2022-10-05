@@ -1,6 +1,6 @@
 # Recipe_API
 
-Dev-Log. Creating a Flask/MongoDB Rest-API for Cooking Recipes SetUP.
+Dev-Log. Creating a Flask Rest-API for Cooking Recipes SetUP.
 
 
 Pre-Requesists:
